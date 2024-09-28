@@ -1,0 +1,74 @@
+@media screen and (max-width:700px){
+
+/* contact */
+body{
+    overflow: hidden;
+}
+
+.contact-box{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    color: white;
+    margin-left: -29rem;
+}
+.contact{
+    background-color: black;
+    width: 390px;
+    height: 400px;
+    margin-left: 1%;
+    margin-top: 2rem;
+    padding-top: 3rem;
+    color: white;
+}
+.contact-box input{
+    width: 50%;
+    margin-left: 10rem;
+    
+}
+.contact-button{
+    margin-top: 1rem;
+    margin-left: 29rem;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+
+}
+.contact-h1{
+    position: absolute;
+    top: 5rem;
+    left: -.1rem;
+}
+.name{
+    width: 3px;
+}
+.email{
+    width: 3px; 
+}
+.Message{
+    width: 3px;
+}
+.name input{
+    width: 320px;
+     height: 3rem;
+     position: relative;
+     right: 10rem;
+}
+.email input{  
+    width: 320px;
+     height: 3rem;
+     position: relative;
+     right: 10rem;
+}
+.Message input{
+    width:320px; 
+    height: 1rem; 
+    padding-bottom: 4rem;
+    position: relative;
+    right: 10rem;
+}
+}
